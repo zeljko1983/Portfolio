@@ -23,7 +23,7 @@ watherForm.addEventListener('submit', async (event) => {
 });
 
 async function getWeatherData(city) {
-  const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city},&appid=${apiKey}`;
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city},&appid=${apiKey}`;
   const responese = await fetch(apiUrl);
   if (!responese.ok) {
     throw new Error('Could not fetch weather Data');
