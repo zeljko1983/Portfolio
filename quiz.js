@@ -100,12 +100,12 @@ const questions = [
     ],
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What is the capital of Serbia?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true },
+      { text: 'Belgrade', correct: true },
+      { text: 'Nis', correct: true },
+      { text: 'Novi Sad', correct: true },
+      { text: 'Banja Luka', correct: true },
     ],
   },
   {
