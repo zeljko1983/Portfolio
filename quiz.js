@@ -103,9 +103,9 @@ const questions = [
     question: 'What is the capital of Serbia?',
     answers: [
       { text: 'Belgrade', correct: true },
-      { text: 'Nis', correct: true },
-      { text: 'Novi Sad', correct: true },
-      { text: 'Banja Luka', correct: true },
+      { text: 'Nis', correct: false },
+      { text: 'Novi Sad', correct: false },
+      { text: 'Banja Luka', correct: false },
     ],
   },
   {
